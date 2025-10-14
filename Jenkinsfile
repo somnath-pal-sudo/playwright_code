@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://your-repo-url.git'
+                git 'https://github.com/somnath-pal-sudo/playwright_code/blob/playwright_code.git'
             }
         }
         stage('Install dependencies') {
